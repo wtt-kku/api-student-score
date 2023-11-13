@@ -1,0 +1,57 @@
+{
+  "student": [
+    {
+      "id": "_s001",
+      "student_id": "20100",
+      "fname": "Jettawat",
+      "lastname": "Chorncharoon",
+      "password": "0000"
+    },
+    {
+      "id": "_s002",
+      "student_id": "20101",
+      "fname": "Somchai",
+      "lastname": "Suwansiri",
+      "password": "0000"
+    },
+    {
+      "id": "_s003",
+      "student_id": "20102",
+      "fname": "Chotika",
+      "lastname": "Srisuk",
+      "password": "0000"
+    }
+  ],
+  "teacher": [
+    {
+      "id": "_t001",
+      "teacher_id": "90000",
+      "fname": "Withan",
+      "lastname": "Wongsabut",
+      "password": "1111"
+    }
+  ],
+  "masterdata": {
+    "rule": [
+      { "id": "_c1bca3", "type": "decrease", "text": "ไม่ตัดผม", "score": 10 },
+      {
+        "id": "_a3acb2",
+        "type": "decrease",
+        "text": "แต่งตัวผิดระเบียบ",
+        "score": 10
+      },
+      {
+        "id": "_baabcc",
+        "type": "increase",
+        "text": "เข้าร่วมกิจกรรม",
+        "score": 2
+      },
+      {
+        "id": "_a4fabe",
+        "type": "increase",
+        "text": "ช่วยงานจิตอาสา",
+        "score": 5
+      }
+    ]
+  }
+}
