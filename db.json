@@ -58,7 +58,7 @@
     ]
   },
   "score": {
-    "_s001": {
+    "20100": {
       "current_score": 80,
       "current_status": "PASS",
       "history": [
@@ -85,12 +85,12 @@
         }
       ]
     },
-    "_s002": {
+    "20101": {
       "current_score": 100,
       "current_status": "PASS",
       "history": []
     },
-    "_s003": {
+    "student_id": {
       "current_score": 0,
       "current_status": "PASS",
       "history": [
