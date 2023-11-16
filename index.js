@@ -78,6 +78,28 @@ app.get("/api/rule", (req, res) => {
   });
 });
 
+app.get("/api/student-score-data/:id", (req, res) => {
+  var id = req.params.id;
+
+  data = db.score[id];
+
+  if (data == undefined) {
+    res.status(400).json({
+      result: false,
+      status: 400,
+      message: "Not found user",
+      data: data,
+    });
+  } else {
+    res.status(200).json({
+      result: true,
+      status: 200,
+      message: "Success",
+      data: data,
+    });
+  }
+});
+
 app.listen(9000, () => {
   console.log("API run on port 9000");
 });

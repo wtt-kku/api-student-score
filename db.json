@@ -5,6 +5,7 @@
       "student_id": "20100",
       "fname": "Jettawat",
       "lastname": "Chorncharoon",
+      "class": "1/1",
       "password": "0000"
     },
     {
@@ -12,6 +13,7 @@
       "student_id": "20101",
       "fname": "Somchai",
       "lastname": "Suwansiri",
+      "class": "1/2",
       "password": "0000"
     },
     {
@@ -19,6 +21,7 @@
       "student_id": "20102",
       "fname": "Chotika",
       "lastname": "Srisuk",
+      "class": "1/2",
       "password": "0000"
     }
   ],
@@ -53,5 +56,52 @@
         "score": 5
       }
     ]
+  },
+  "score": {
+    "_s001": {
+      "current_score": 80,
+      "current_status": "PASS",
+      "history": [
+        {
+          "id": "_c1bca3",
+          "reason": "ไม่ตัดผม",
+          "type": "DECREASE",
+          "score": 10,
+          "createDate": "2022-10-08"
+        },
+        {
+          "id": "_a3acb2",
+          "reason": "ทำจิตอาสา ช่วยงานกิจกรรมวันลอยกระทง",
+          "type": "INCREASE",
+          "score": 10,
+          "createDate": "2022-10-04"
+        },
+        {
+          "id": "_baabcc",
+          "reason": "แต่งตัวไม่เรียบร้อย",
+          "type": "DECREASE",
+          "score": 5,
+          "createDate": "2022-10-01"
+        }
+      ]
+    },
+    "_s002": {
+      "current_score": 100,
+      "current_status": "PASS",
+      "history": []
+    },
+    "_s003": {
+      "current_score": 0,
+      "current_status": "PASS",
+      "history": [
+        {
+          "id": "_a3acb2",
+          "reason": "ระเบิดรังมดในโรงเรียน",
+          "type": "DECREASE",
+          "score": 100,
+          "createDate": "2022-10-04"
+        }
+      ]
+    }
   }
 }
