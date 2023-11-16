@@ -1,24 +1,24 @@
 {
   "student": [
     {
-      "id": "_s001",
-      "student_id": "20100",
+      "student_id": "_s001",
+      "student_no": "20100",
       "fname": "Jettawat",
       "lastname": "Chorncharoon",
       "class": "1/1",
       "password": "0000"
     },
     {
-      "id": "_s002",
-      "student_id": "20101",
+      "student_id": "_s002",
+      "student_no": "20101",
       "fname": "Somchai",
       "lastname": "Suwansiri",
       "class": "1/2",
       "password": "0000"
     },
     {
-      "id": "_s003",
-      "student_id": "20102",
+      "student_id": "_s003",
+      "student_no": "20102",
       "fname": "Chotika",
       "lastname": "Srisuk",
       "class": "1/2",
@@ -58,7 +58,7 @@
     ]
   },
   "score": {
-    "20100": {
+    "_s001": {
       "current_score": 80,
       "current_status": "PASS",
       "history": [
@@ -85,12 +85,12 @@
         }
       ]
     },
-    "20101": {
+    "_s002": {
       "current_score": 100,
       "current_status": "PASS",
       "history": []
     },
-    "student_id": {
+    "_s003": {
       "current_score": 0,
       "current_status": "PASS",
       "history": [
