@@ -3,7 +3,7 @@
     {
       "student_id": "_s001",
       "student_no": "20100",
-      "fname": "Jettawat",
+      "firstname": "Jettawat",
       "lastname": "Chorncharoon",
       "class": "1/1",
       "password": "0000"
@@ -11,7 +11,7 @@
     {
       "student_id": "_s002",
       "student_no": "20101",
-      "fname": "Somchai",
+      "firstname": "Somchai",
       "lastname": "Suwansiri",
       "class": "1/2",
       "password": "0000"
@@ -19,7 +19,7 @@
     {
       "student_id": "_s003",
       "student_no": "20102",
-      "fname": "Chotika",
+      "firstname": "Chotika",
       "lastname": "Srisuk",
       "class": "1/2",
       "password": "0000"
@@ -27,9 +27,9 @@
   ],
   "teacher": [
     {
-      "id": "_t001",
-      "teacher_id": "90000",
-      "fname": "Withan",
+      "teacher_id": "_t001",
+      "teacher_no": "90000",
+      "firstname": "Withan",
       "lastname": "Wongsabut",
       "password": "1111"
     }

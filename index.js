@@ -12,11 +12,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post("/api/student-login", (req, res) => {
   var found = -1;
-  let u = req.body.student_id;
+  let u = req.body.student_no;
   let p = req.body.password;
   let all_student = db.student;
   for (let i = 0; i < all_student.length; i++) {
-    if (all_student[i].student_id == u && all_student[i].password == p) {
+    if (all_student[i].student_no == u && all_student[i].password == p) {
       found = i;
     }
   }
@@ -39,11 +39,11 @@ app.post("/api/student-login", (req, res) => {
 
 app.post("/api/teacher-login", (req, res) => {
   var found = -1;
-  let u = req.body.teacher_id;
+  let u = req.body.teacher_no;
   let p = req.body.password;
   let all_teacher = db.teacher;
   for (let i = 0; i < all_teacher.length; i++) {
-    if (all_teacher[i].teacher_id == u && all_teacher[i].password == p) {
+    if (all_teacher[i].teacher_no == u && all_teacher[i].password == p) {
       found = i;
     }
   }
