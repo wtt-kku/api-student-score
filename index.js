@@ -22,17 +22,19 @@ app.post("/api/student-login", (req, res) => {
   }
 
   if (found != -1) {
+    var student = all_student[found];
+    delete student.password;
     res.status(200).json({
       result: true,
       status: 200,
       message: "Login success!",
-      data: all_student[found],
+      data: student,
     });
   } else {
     res.status(400).json({
       result: false,
       status: 400,
-      message: "Student Not found",
+      message: "Student ID or password incorrect",
     });
   }
 });
@@ -49,17 +51,19 @@ app.post("/api/teacher-login", (req, res) => {
   }
 
   if (found != -1) {
+    var teacher = all_teacher[found];
+    delete teacher.password;
     res.status(200).json({
       result: true,
       status: 200,
       message: "Login success!",
-      data: all_teacher[found],
+      data: teacher,
     });
   } else {
     res.status(400).json({
       result: false,
       status: 400,
-      message: "Teacher Not found",
+      message: "Teacher ID or password incorrect",
     });
   }
 });
