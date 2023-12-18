@@ -22,7 +22,7 @@ app.post("/api/student-login", (req, res) => {
   }
 
   if (found != -1) {
-    var student = all_student[found];
+    let student = Object.assign({}, all_student[found]);
     delete student.password;
     res.status(200).json({
       result: true,
@@ -51,7 +51,7 @@ app.post("/api/teacher-login", (req, res) => {
   }
 
   if (found != -1) {
-    var teacher = all_teacher[found];
+    let teacher = Object.assign({}, all_teacher[found]);
     delete teacher.password;
     res.status(200).json({
       result: true,
